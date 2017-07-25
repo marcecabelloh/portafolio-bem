@@ -1,3 +1,8 @@
+body{
+	padding:0;
+	margin: 0 auto;
+}
+
 .navbar{
 	background-color:$color-nav;
 	color:white;
@@ -7,3 +12,33 @@
 .logo{
 	width:30px;
 }
+
+.container-uno{
+	background-color:$color-container-uno;
+	color:white;
+	padding:50px;
+	margin-top:-21px;
+}
+
+.label{
+	background-color:$color-verde;
+	width:50px;
+}
+
+.titulo-verde{
+	color:$color-verde;
+}
+
+.container-dos{
+	background-color:$color-nav;
+}
+
+.navbar-nav {
+   width: 100%;
+   text-align: center;
+    li {
+     float: none;
+     display: inline-block;
+     color:white;
+   }
+ }
