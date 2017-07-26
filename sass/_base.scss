@@ -6,31 +6,36 @@ body{
 .navbar{
 	background-color:$color-nav;
 	color:white;
-	text-align:center;
 }
 
-.logo{
-	width:30px;
+nav  li a{
+	color: white !important;
 }
 
-.container-uno{
+.nav__enlaces--logo{
+	width:40px;	
+}
+
+.containerUno{
 	background-color:$color-container-uno;
 	color:white;
-	padding:50px;
+	padding:100px;
 	margin-top:-21px;
 }
 
-.label{
+.containerUno__boton--verde{
 	background-color:$color-verde;
-	width:50px;
+	color:white;
 }
 
-.titulo-verde{
+.containerUno__titulo--verde{
 	color:$color-verde;
 }
 
-.container-dos{
+.containerDos{
 	background-color:$color-nav;
+	padding:40px;
+	color:white;
 }
 
 .navbar-nav {
@@ -39,6 +44,25 @@ body{
     li {
      float: none;
      display: inline-block;
-     color:white;
    }
  }
+
+.redessociales__iconos--facebook{
+	color:$facebook;
+}
+
+.redessociales__iconos--twitter{
+	color:$twitter;
+}
+
+.redessociales__iconos--pinterest{
+	color:$pinterest;
+}
+
+.redessociales__iconos--google{
+	color:$google;
+}
+
+.redessociales__iconos--dribbble{
+	color:$dribbble;
+}

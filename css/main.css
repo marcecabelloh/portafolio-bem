@@ -4,34 +4,52 @@ body {
 
 .navbar {
   background-color: #F5464D;
-  color: white;
-  text-align: center; }
+  color: white; }
 
-.logo {
-  width: 30px; }
+nav li a {
+  color: white !important; }
 
-.container-uno {
+.nav__enlaces--logo {
+  width: 40px; }
+
+.containerUno {
   background-color: #1E3747;
   color: white;
-  padding: 50px;
+  padding: 100px;
   margin-top: -21px; }
 
-.label {
+.containerUno__boton--verde {
   background-color: #1AD08C;
-  width: 50px; }
+  color: white; }
 
-.titulo-verde {
+.containerUno__titulo--verde {
   color: #1AD08C; }
 
-.container-dos {
-  background-color: #F5464D; }
+.containerDos {
+  background-color: #F5464D;
+  padding: 40px;
+  color: white; }
 
 .navbar-nav {
   width: 100%;
   text-align: center; }
   .navbar-nav li {
     float: none;
-    display: inline-block;
-    color: white; }
+    display: inline-block; }
+
+.redessociales__iconos--facebook {
+  color: #4F74B1; }
+
+.redessociales__iconos--twitter {
+  color: #2DA5CE; }
+
+.redessociales__iconos--pinterest {
+  color: #BE303D; }
+
+.redessociales__iconos--google {
+  color: #C6554E; }
+
+.redessociales__iconos--dribbble {
+  color: #D05C89; }
 
 /*# sourceMappingURL=main.css.map */
